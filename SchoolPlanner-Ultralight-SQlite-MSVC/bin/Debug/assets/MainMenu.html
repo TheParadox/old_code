@@ -1,0 +1,100 @@
+<html>
+<head>
+	<style>
+		#NewSchoolOverlay {
+			position: fixed;
+			display: none;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.5);
+			z-index: 2;
+			cursor: pointer;
+		}
+
+		#newSchool {
+			color: green;
+		}
+
+		#cancel {
+			color: red;
+		}
+
+		.NewSchoolForm {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+		}
+	</style>
+
+	<script type="text/javascript">
+		function showSchool(isSet, schoolName) {
+			let nameP = document.getElementById("school");
+
+			if (isSet) {
+				nameP.innerHTML = schoolName;
+				nameP.removeAttribute("hidden");
+			} else {
+				if (!nameP.hasAttribute("hidden")) {
+					nameP.setAttribute("hidden");
+				}
+			}
+
+		}
+
+		function showNewSchoolOverlay() {
+			let overlay = document.getElementById("NewSchoolOverlay");
+
+			overlay.style.visibility = "visible";
+			overlay.style.display = "block";
+		}
+
+		function submit() {
+			let overlay = document.getElementById("NewSchoolOverlay");
+			overlay.style.visibility = "hidden";
+
+			let schoolName = document.getElementById("schoolText");
+			var data = {
+				name: schoolName.value
+			};
+			newSchool(JSON.stringify(data));
+			update();
+			document.getElementById("schoolText").value = "";
+		}
+
+		function cancel() {
+			let overlay = document.getElementById("NewSchoolOverlay");
+			overlay.style.visibility = "hidden";
+
+			document.getElementById("schoolText").value = "";
+		}
+	</script>
+
+
+</head>
+<body>
+	<div>
+		<button id="school" onclick="changeWidget('school_dashboard')" hidden></button>
+		<button id="new" onclick="showNewSchoolOverlay()">New School</button>
+		<button id="load" onclick="changeWidget('load_school')">Load School</button>
+		<button id="options" onclick="changeWidget('options')">Options</button>
+		<button id="help" onclick="changeWidget('help')">Help</button>
+		<button id="quit" onclick="quit()">Quit</button>
+
+	</div>
+
+	<div id="NewSchoolOverlay" style="position:absolute;" hidden>
+		<div class="NewSchoolForm">
+			<label>Enter the name of the New School:</label><br />
+			<label>NOTE: This will create an empty School</label><br /><br />
+			<input type="text" id="schoolText" size="40"/><br /><br />
+			<button id="newSchool" onclick="submit()">Create</button>
+			<button id="cancel" onclick="cancel()">Cancel</button>
+		</div>
+	</div>
+
+</body>
+</html>

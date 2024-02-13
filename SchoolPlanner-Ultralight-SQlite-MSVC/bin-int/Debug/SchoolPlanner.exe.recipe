@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\bin\Debug\SchoolPlanner.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\data\config.json</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\assets\resources\cacert.pem</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\assets\resources\icudt67l.dat</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\assets\resources\mediaControls.css</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\assets\resources\mediaControls.js</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\assets\resources\mediaControlsLocalizedStrings.js</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\assets\MainMenu.html</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\assets\js\common.js</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\assets\js\dropdown.js</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\assets\js\tabs.js</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\assets\OptionsMenu.html</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\assets\SchoolDashboard.html</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\assets\styling\dropdown.css</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\assets\styling\general.css</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\assets\styling\tabs.css</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,91 @@
+<html>
+<head>
+
+	<style>
+		.contactsList {
+			display: inline-block;
+		}
+
+		.row {
+			border:solid 1px;
+			padding:5px;
+			margin-top:5px;
+		}
+
+		.row:nth-child(even){
+			background-color: green;
+		}
+
+		.row:nth-child(odd){
+			background-color: antiquewhite;
+		}
+
+		.row label {
+			padding-right: 10px;
+		}
+
+		.row:hover {
+			background-color: burlywood;
+			cursor:pointer;
+		}
+
+		.row:active {
+			background-color: orangered;
+		}
+	</style>
+
+
+	<script type="text/javascript">
+
+		function clicked(e) {
+			console.log("Row " + e.target.id + " was clicked");
+		}
+
+		function createRows(data) {
+			var list = document.getElementById("contactsList");
+			console.log(list);
+
+			for (var i = 1; i <= data; i++) {
+				var row = document.createElement("div");
+				row.setAttribute("class", "row");
+				row.setAttribute("id", i);
+
+				row.addEventListener('click', clicked);
+
+
+				var label = document.createElement("label");
+				label.innerHTML = "Bob";
+				row.appendChild(label);
+
+				label = document.createElement("label");
+				label.innerHTML = "Parent";
+				row.appendChild(label);
+
+
+				var button = document.createElement("button");
+				button.innerHTML = "View";
+				row.appendChild(button);
+
+
+				list.appendChild(row);
+			}
+
+			console.log("Create Rows done...");
+		};
+
+		function searchBar() {
+			//will have to query the database and re-create the rows with the results...
+		};
+
+	</script>
+
+
+</head>
+<body onload="createRows(5)">
+
+	<div id="contactsList">
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: V:/BCE_Studios/Code Review/PAH_Inventory/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):V:/MSVC_2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_c4072 && [1/2] Building C object CMakeFiles\cmTC_c4072.dir\CMakeCCompilerABI.c.obj
+FAILED: CMakeFiles/cmTC_c4072.dir/CMakeCCompilerABI.c.obj 
+V:\MSVC_2022\VC\Tools\MSVC\14.38.33130\bin\Hostx86\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_c4072.dir\CMakeCCompilerABI.c.obj /FdCMakeFiles\cmTC_c4072.dir\ /FS -c V:\cmake\share\cmake-3.23\Modules\CMakeCCompilerABI.c
+V:\cmake\share\cmake-3.23\Modules\CMakeCCompilerABI.c: fatal error C1902: Program database manager mismatch; please check your installation
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: V:/BCE_Studios/Code Review/PAH_Inventory/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):V:/MSVC_2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_48be8 && [1/2] Building C object CMakeFiles\cmTC_48be8.dir\testCCompiler.c.obj
+FAILED: CMakeFiles/cmTC_48be8.dir/testCCompiler.c.obj 
+V:\MSVC_2022\VC\Tools\MSVC\14.38.33130\bin\Hostx86\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_48be8.dir\testCCompiler.c.obj /FdCMakeFiles\cmTC_48be8.dir\ /FS -c "V:\BCE_Studios\Code Review\PAH_Inventory\out\build\x64-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+V:\BCE_Studios\Code Review\PAH_Inventory\out\build\x64-debug\CMakeFiles\CMakeTmp\testCCompiler.c: fatal error C1902: Program database manager mismatch; please check your installation
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: V:/BCE_Studios/Code Review/PAH_Inventory/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):V:/MSVC_2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_4be0b && [1/2] Building C object CMakeFiles\cmTC_4be0b.dir\CMakeCCompilerABI.c.obj
+FAILED: CMakeFiles/cmTC_4be0b.dir/CMakeCCompilerABI.c.obj 
+V:\MSVC_2022\VC\Tools\MSVC\14.38.33130\bin\Hostx86\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_4be0b.dir\CMakeCCompilerABI.c.obj /FdCMakeFiles\cmTC_4be0b.dir\ /FS -c V:\cmake\share\cmake-3.23\Modules\CMakeCCompilerABI.c
+V:\cmake\share\cmake-3.23\Modules\CMakeCCompilerABI.c: fatal error C1902: Program database manager mismatch; please check your installation
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: V:/BCE_Studios/Code Review/PAH_Inventory/out/build/x64-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):V:/MSVC_2022/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_c5b47 && [1/2] Building C object CMakeFiles\cmTC_c5b47.dir\testCCompiler.c.obj
+FAILED: CMakeFiles/cmTC_c5b47.dir/testCCompiler.c.obj 
+V:\MSVC_2022\VC\Tools\MSVC\14.38.33130\bin\Hostx86\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\cmTC_c5b47.dir\testCCompiler.c.obj /FdCMakeFiles\cmTC_c5b47.dir\ /FS -c "V:\BCE_Studios\Code Review\PAH_Inventory\out\build\x64-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+V:\BCE_Studios\Code Review\PAH_Inventory\out\build\x64-debug\CMakeFiles\CMakeTmp\testCCompiler.c: fatal error C1902: Program database manager mismatch; please check your installation
+ninja: build stopped: subcommand failed.
+
+
+

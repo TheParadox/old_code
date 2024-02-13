@@ -1,0 +1,39 @@
+<html>
+<head>
+
+	<link href="styling/general.css" rel="stylesheet" />
+	<link href="styling/tabs.css" rel="stylesheet" />
+	<link href="styling/dropdown.css" rel="stylesheet" />
+
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/tabs.js"></script>
+	<script type="text/javascript" src="js/dropdown.js"></script>
+
+</head>
+<body>
+	<div class="tab">
+		<button class="tablinks active">Settings</button>
+	</div>
+
+	<div id="graphics" class="tabcontent" style="display: block;">
+
+		<label>Resolution:</label>
+		<div class="dropdown">
+			<button id="currentResolution" class="dropbtn"></button>
+			<div id="resDropdown" class="dropdown-content">
+			</div>
+		</div>
+
+		<br />
+
+		<label>Fullscreen: </label>
+		<input id="fullscreenCheckbox" type="checkbox" value="0" />
+
+	</div>
+
+
+
+	<button id="save" onclick="save()">Save</button>
+	<button id="back" onclick="changeWidget('main_menu')">Back</button>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.quad-div {
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+.quad-top-left {
+	background-color: azure;
+}
+
+.quad-top-right {
+	background-color: green;
+}
+
+.quad-bottom-left {
+	background-color: cadetblue;
+}
+
+.quad-bottom-right {
+	background-color: lightcoral;
+}

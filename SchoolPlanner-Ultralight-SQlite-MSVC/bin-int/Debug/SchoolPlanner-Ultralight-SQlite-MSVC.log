@@ -1,0 +1,19 @@
+﻿  sc_pch.cpp
+  Application.cpp
+  JsonHelpers.cpp
+  StandardFileOperations.cpp
+  EntryMain.cpp
+  Log.cpp
+  Database.cpp
+  DBHelpers.cpp
+  LibraryQueries.cpp
+  SchoolQueries.cpp
+V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\src\SQL\SchoolQueries.cpp(19,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\src\SQL\SchoolQueries.cpp(49,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\SchoolPlanner-Ultralight-SQlite-MSVC\src\SQL\SchoolQueries.cpp(106,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  UI.cpp
+  Widget.cpp
+  MainMenuWidget.cpp
+  Generating Code...
+  sqlite3.c
+  SchoolPlanner-Ultralight-SQlite-MSVC.vcxproj -> V:\programming\GameStudios\SchoolPlanner-Ultralight-SQlite-MSVC\bin\Debug\SchoolPlanner.exe
